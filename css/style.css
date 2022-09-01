@@ -1,0 +1,131 @@
+.boddy{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6000ca11-0422-48c9-9254-65f6ba392a7c/db45zrx-82a76074-7256-4283-8803-f799a4e5fc86.png/v1/fill/w_1192,h_670,q_70,strp/mutou_yuugi__yu_gi_oh___minimal_wallpaper_by_max028_db45zrx-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDUwMCIsInBhdGgiOiJcL2ZcLzYwMDBjYTExLTA0MjItNDhjOS05MjU0LTY1ZjZiYTM5MmE3Y1wvZGI0NXpyeC04MmE3NjA3NC03MjU2LTQyODMtODgwMy1mNzk5YTRlNWZjODYucG5nIiwid2lkdGgiOiI8PTgwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.x30ES769MoN9UXhWB6VyIJnpvjjDqf9m-w7CDHH96vc);
+}
+
+p{
+    color: rgb(10, 10, 10); 
+}
+
+h1{
+    text-align: center;
+}
+
+.yuki{
+
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    font-size: large;
+
+
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6000ca11-0422-48c9-9254-65f6ba392a7c/db45zrx-82a76074-7256-4283-8803-f799a4e5fc86.png/v1/fill/w_1192,h_670,q_70,strp/mutou_yuugi__yu_gi_oh___minimal_wallpaper_by_max028_db45zrx-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDUwMCIsInBhdGgiOiJcL2ZcLzYwMDBjYTExLTA0MjItNDhjOS05MjU0LTY1ZjZiYTM5MmE3Y1wvZGI0NXpyeC04MmE3NjA3NC03MjU2LTQyODMtODgwMy1mNzk5YTRlNWZjODYucG5nIiwid2lkdGgiOiI8PTgwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.x30ES769MoN9UXhWB6VyIJnpvjjDqf9m-w7CDHH96vc)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.formu {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: "lato", sans-serif;
+  background-image: url(https://cdn.discordapp.com/attachments/941071397587943484/1014635190611615905/com.yugioh.anim.cartoon.hd.wallpaper.magician-header.png);
+}
+.signupFrm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .form {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+  }
+  
+  .title {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+
+  .inputContainer {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+  }
+
+  .input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+  }
+  
+  
+  ::placeholder {
+    color: transparent;
+  }
+
+  .label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: white;
+    color: #DADCE0;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+  }
+
+  .submitBtn {
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  
+  .submitBtn:hover {
+    background-color: #515599;
+    transform: translateY(-2px);
+  }
+
+  .input:focus + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: blue;
+  }
+
+  .input:focus {
+    border: 2px solid blue;
+  }
+
+  .input:not(:placeholder-shown)+ .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+  }

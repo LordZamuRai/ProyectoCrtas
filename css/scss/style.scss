@@ -1,0 +1,29 @@
+.red-face{
+	@extend .boton;
+	background-color:red;
+	color:yellow;
+}
+
+@mixin was($width, $height) {
+    height: $height;
+    width: $width;
+ }
+ .red-was {
+    @include sizes(500px, 50px);
+ }
+
+ $estilos: (
+  color: #27dd55,
+  centro: center,
+  tFuente: 35px,
+  1rem : 1rem
+);
+
+div {
+  background-color: map-get($estilos, color);
+  text-align: map-get($estilos, centro);
+  padding: map-get($estilos, 1rem);
+  font-size:map-get($estilos, tFuente);
+}
+
+ 
